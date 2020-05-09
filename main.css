@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.game-elements {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    margin: 40px 0;
+}
+.game-box {
+    display: flex;
+    border: 2px solid red;
+    width: 60%;
+    height: 75%;
+    justify-content: center;
+}
+
+#player1 {
+    margin: 5px;
+    border: 2px solid red;
+    flex: 1 1 40%;
+}
+
+#player2 {
+    margin: 5px;
+    border: 2px solid red;
+    flex: 1 1 40%;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.current {
+    margin-top: 25%;
+    text-align: center;
+}
+
+/* new game, roll dice & hold */
+
+.buttons{
+    background-color: darkkhaki;
+    border-radius: 10%;
+    padding: 10px;
+}
+.buttons:hover {
+    background-color: magenta;
+}
+
+#roll-dice {
+    visibility: hidden;
+}
+
+#hold {
+    visibility: hidden;
+}
+
+#win-lose {
+    color: blue
+}
