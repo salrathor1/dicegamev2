@@ -43,7 +43,6 @@ const buttonsInvisible = () => {
 }
 
 rollDiceButton.addEventListener("click", ()=> {
-    console.log("roll dice");
     let randomNum = Math.ceil(Math.random() * 6);
     diceImage.src = `img/dice${randomNum}.png`;
     if(turn == true) {
